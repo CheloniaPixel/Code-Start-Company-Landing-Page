@@ -1,0 +1,76 @@
+@media (max-width:1056px) {
+    nav .navigation ul {
+        position: absolute;
+        top: 100%;
+        left:0;
+        width:100vw;
+        height: 0;
+        background-color:var(--background-color);
+        z-index: 999;
+        display: grid;
+        place-content: center;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    nav .navigation .mobile-icon {
+        display:block;
+        cursor: pointer;
+    }
+}
+
+@media (max-width:1240px) {
+    #hero .container {
+        display:grid;
+        place-content: center;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 1.6rem;
+        padding: 75px 0rem;
+    }
+    #hero .image svg {
+        max-width: 1020px;
+        max-height: 1020px;
+        height: 75vw;
+        width: 75vw;
+    }
+}
+
+@media (max-width:768px) {
+    #contact .content {
+        display: grid;
+        place-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    #contact .email-form {
+        width: 82vw;
+        max-width: none;
+    }
+    #contact .email-form form input, #contact .email-form form textarea {
+        max-width: none;
+    }
+    #contact .map {
+        width: 82vw;
+        max-width: none;
+    }
+}
+
+@media (max-width:768px) {
+    footer .top-section .container {
+        display: grid;
+        place-content: center;
+        align-items: center;
+        justify-items: center;
+        text-align: center;
+    }
+    footer .top-section .text {
+        margin-bottom: 1.8rem;
+    }
+    footer .top-section .text .logo {
+        justify-content: center;
+    }
+}
+
